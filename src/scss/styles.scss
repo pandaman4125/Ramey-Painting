@@ -6,7 +6,10 @@ body,
 html {
     height: 100%;
 }
-
+body {
+    background-image: url(assets/background.jpg);
+    background-color: #51b3bc;
+}
 // Custom SCSS for feature component with Bootstrap icon
 .feature {
     display: inline-flex;
@@ -25,4 +28,12 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 15rem;
+}
+
+.btn-danger {
+    background-color: #bc3d43;
+}
+
+.bg-light {
+    --bs-light-rgb: 239, 200, 45;
 }
